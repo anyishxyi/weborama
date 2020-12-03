@@ -1,0 +1,16 @@
+.el-card {
+  border: none;
+  border-radius: 10px;
+
+  .el-card__header {
+    border-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  &.table {
+    .el-card__body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}

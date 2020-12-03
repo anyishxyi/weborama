@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>cancel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-58.3%" y="-58.3%" width="216.7%" height="216.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.11829144 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3---Transferts-/6" transform="translate(-849.000000, -165.000000)">
+            <g id="cancel" filter="url(#filter-1)" transform="translate(856.000000, 170.000000)">
+                <circle id="Oval" fill="#FFFFFF" cx="15" cy="16.5" r="10.5"></circle>
+                <path d="M0,15 C0,23.25 6.75,30 15,30 C23.25,30 30,23.25 30,15 C30,6.75 23.25,0 15,0 C6.75,0 0,6.75 0,15 Z M20.1288572,21.6724623 C19.9630549,21.8410616 19.6861105,21.8327988 19.5195873,21.6634664 L14.8880199,16.9537667 L10.2564525,21.6634664 C10.0857643,21.837034 9.80921512,21.8372283 9.64718256,21.6724623 L8.32625139,20.3292477 C8.16044908,20.1606483 8.16857484,19.879032 8.33509802,19.7096997 L12.9666654,15 L8.33509802,10.2903003 C8.16440986,10.1167327 8.16421883,9.83551831 8.32625139,9.67075234 L9.64718256,8.32753771 C9.81298487,8.1589384 10.0899293,8.16720124 10.2564525,8.33653358 L14.8880199,13.0462333 L19.5195873,8.33653358 C19.6902755,8.16296599 19.9668246,8.16277174 20.1288572,8.32753771 L21.4497884,9.67075234 C21.6155907,9.83935165 21.6074649,10.120968 21.4409417,10.2903003 L16.8093743,15 L21.4409417,19.7096997 C21.6116299,19.8832673 21.6118209,20.1644817 21.4497884,20.3292477 L20.1288572,21.6724623 Z" id="Shape" fill="#262626"></path>
+            </g>
+        </g>
+    </g>
+</svg>

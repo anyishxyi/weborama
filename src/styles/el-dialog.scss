@@ -1,0 +1,279 @@
+.general-modal {
+
+  .header-content {
+    margin: 0 0 25px 0 !important;
+  }
+
+  .el-dialog__header {
+    display: none;
+  }
+
+  h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #303133;
+  }
+
+  .even-odd-list {
+  	padding: 0;
+  	margin: 0;
+
+    li {
+      list-style: none;
+      background: #f3f3f3;
+      padding: 14px 20px;
+
+      &.even {
+      	background: #fcfcfb;
+      }
+
+      .info-box {
+        display: inline-block;
+        width: 39%;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .result-box {
+        width: 60%;
+        display: inline-block;
+
+        &.contain-icon .svg-icon {
+          font-size: 18px;
+          position: absolute;
+          margin-top: -14px;
+        }
+      }
+    }
+  }
+
+  .el-collapse {
+    margin-left: -20px;
+    margin-right: -20px;
+
+    .el-collapse-item__header {
+      padding: 0px 20px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .el-collapse-item__content {
+      padding-bottom: 0;
+    }
+  }
+
+  .search-wrapper {
+    background: #63676f;
+    padding-top: 10px;
+    margin-bottom: -5px;
+
+    .search-group {
+    	box-shadow: none;
+    }
+  }
+
+  .search-group {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    background: white;
+
+    .el-input--medium {
+      padding-left: 25px;
+    }
+
+    .svg-icon {
+      margin-left: 10px;
+      float: left;
+      font-size: 16px;
+      color: #4e4e4ed4;
+      margin-top: -28px;
+    }
+    input {
+      display: inline-block;
+      border: none;
+      padding-top: 0px;
+      font-size: 15px;
+    }
+    input:focus {
+      outline: none;
+    }
+  }
+
+  .el-tabs {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -20px;
+
+    .el-tabs__active-bar {
+      height: 3px;
+    }
+
+    .el-tabs__item {
+    	font-size: 17px;
+      font-weight: 600;
+      padding: 0;
+      height: 50px;
+      color: #767676;
+      letter-spacing: 0.1px;
+
+      &.is-active {
+        color: #303133;
+      }
+    }
+  }
+
+  .two-columns-wrapper {
+  	width: 100%;
+
+    .column {
+      width: 50%;
+      display: inline-block;
+      float: left;
+      padding-top: 20px;
+
+      &.second .switch-item {
+        text-align: right;
+        padding-right: 40px;
+        margin-bottom: 5px;
+
+        .el-switch__core {
+          position: absolute;
+          right: 0px;
+        }
+
+        .el-switch__label {
+          display: none;
+        }
+
+        .el-switch__label.is-active {
+          display: inline-block;
+        }
+
+        .el-switch__label * {
+          font-size: 15px;
+          display: inline-block;
+          position: absolute;
+          left: -210px;
+          line-height: 19px;
+          color: #2f3133;
+        }
+      }
+    }
+
+    .column.first {
+      text-align: right;
+      padding-left: 20px;
+    }
+  }
+
+  .el-form.stock-form {
+    .el-form-item {
+      .el-select, .el-input {
+        width: 140px;
+      }
+    }
+
+    .el-form-item {
+      margin-bottom: 0;
+
+      & + .el-form-item {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .el-form.full-width {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .el-form-item {
+      .el-select, .el-input {
+        width: 100%;
+      }
+    }
+  }
+
+  .el-dialog__footer {
+    padding: 0;
+    text-align: center;
+    border-top: 1px solid #C3C3C3;
+    height: 60px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 60px;
+    cursor: pointer;
+    letter-spacing: 0.8px;
+
+    .cancel, .confirm {
+      width: 50%;
+      display: inline-block;
+      float: left;
+    }
+
+    .cancel {
+      border-right: 1px solid #C3C3C3;
+      color: #dd1a23;
+
+      &:hover {
+        color: #ff000cb0;
+      }
+    }
+
+    .confirm {
+      color: #3574e4;
+
+      &:hover {
+        color: #005cff9c;
+      }
+    }
+  }
+}
+
+.el-dialog__body {
+	padding: 0px;
+  word-break: break-word !important;
+}
+
+.el-dialog__wrapper.result-dialog {
+	.el-dialog {
+    width: 300px !important;
+
+    .dialog-header {
+	    text-align: center;
+	    color: #4A4F5A;
+
+	    .top-icon {
+		    font-size: 54px;
+		    margin-top: 15px;
+		    margin-bottom: 10px;
+			}
+
+			h3 {
+		    font-size: 28px;
+		    font-weight: 800;
+		    margin-bottom: 10px;
+			}
+
+			em {
+		    font-style: normal;
+		    font-weight: 600;
+			}
+
+			p {
+		    margin-bottom: 30px;
+		    padding: 0px 10px;
+		    font-size: 19px;
+		    line-height: 23px;
+			}
+		}
+
+		.el-dialog__body {
+	    float: left;
+	    padding-top: 0px;
+		}
+  }
+}
+
+.v-modal {
+  opacity: 0.75;
+}
